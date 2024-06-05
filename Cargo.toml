@@ -16,7 +16,7 @@ hex = "0.4.3"
 uuid = "1.8.0"
 
 [features]
-default = ["v1", "url_safe", "padded"]
+default = ["v4", "url_safe", "padded"]
 v1 = ["uuid/v1"]
 v4 = ["uuid/v4"]
 v7 = ["uuid/v7"]
