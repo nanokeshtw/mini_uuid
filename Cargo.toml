@@ -1,7 +1,7 @@
 [package]
 name = "mini_uuid"
 description = "A small and URL-safe UUID crate for Rust."
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license-file = "LICENSE"
 keywords = ["uuid", "base64", "url-safe", "short", "mini"]
@@ -16,7 +16,7 @@ hex = "0.4.3"
 uuid = "1.8.0"
 
 [features]
-default = ["v4", "url_safe", "padded"]
+default = ["v1", "url_safe", "padded"]
 v1 = ["uuid/v1"]
 v4 = ["uuid/v4"]
 v7 = ["uuid/v7"]

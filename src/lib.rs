@@ -93,9 +93,19 @@ type Bytes = [u8; 16];
 pub struct MiniUuid(Bytes);
 
 impl MiniUuid {
+  #[cfg(feature = "v1")]
+  pub fn new(timestamp: uuid::Timestamp, node_id: &[u8; 6]) -> Self {
+    Self(uuid::Uuid::new_v1(timestamp, node_id).into_bytes())
+  }
+
+  #[cfg(feature = "v4")]
   pub fn new() -> Self {
-    #[cfg(feature = "v4")]
     Self(uuid::Uuid::new_v4().into_bytes())
+  }
+
+  #[cfg(feature = "v7")]
+  pub fn new(timestamp: uuid::Timestamp) -> Self {
+    Self(uuid::Uuid::new_v7(timestamp).into_bytes())
   }
 
   #[inline]
