@@ -29,6 +29,8 @@
 //!
 //!   // Convert to mini UUID (base64)
 //!   let mini = MiniUuid::from_uuid(&uuid);
+//!   // or just create it without the `uuid` crate
+//!   let mini = MiniUuid::new();
 //!   println!("Mini UUID: {}", mini.to_string());
 //!
 //!   // Convert back to UUID
