@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Inspired by [uuid crate](https://github.com/uuid-rs/uuid) and [short_uuid crate](https://github.com/radim10/short-uuid)
 
-Made with :heart: by [nanokeshtw](https://github.com/nanokeshtw)
+With The Ferosity Of :worm: by [nanokeshtw](https://github.com/nanokeshtw)
