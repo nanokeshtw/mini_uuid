@@ -80,7 +80,7 @@ Add `mini_uuid` to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-mini_uuid = "0.1.1"
+mini_uuid = "0.2.0"
 ```
 
 ## Contributing
