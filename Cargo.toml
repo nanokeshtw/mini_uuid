@@ -7,7 +7,7 @@ license-file = "LICENSE"
 keywords = ["uuid", "base64", "url-safe", "short", "mini"]
 categories = ["data-structures"]
 readme = "README.md"
-homepage = "https://github.com/nanokeshtw/mini_uuid"
+repository = "https://github.com/nanokeshtw/mini_uuid"
 documentation = "https://docs.rs/mini_uuid/latest/mini_uuid/"
 
 [dependencies]
